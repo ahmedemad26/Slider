@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 30%;
+    margin: auto;
+}
+.parent img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.child {
+    display: flex;
+}
+.child img{
+    width: 25%;
+    padding-left: 2px;
+}
